@@ -30,9 +30,6 @@ public enum LottoGrade {
         }
         return LOSING;
     }
-    public int getMatchNumber() {
-        return matchNumber;
-    }
 
 
     public int getMoney() {

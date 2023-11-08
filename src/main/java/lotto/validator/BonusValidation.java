@@ -1,7 +1,5 @@
 package lotto.validator;
 
-import lotto.InputData;
-
 import java.util.List;
 
 public class BonusValidation {
@@ -12,9 +10,10 @@ public class BonusValidation {
 
     final String bonusDuplicateError = "[ERROR] 보너스 숫자는 기존의 숫자와 중복될 수 없습니다.";
 
-    public void bonusValidate(List<String> winNumber,String input){
+    public void bonusValidate(List<String> winNumber, String input){
         checkBonusNumber(input);
         checkBonusDuplicate(winNumber,input);
+
     }
 
 
